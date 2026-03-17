@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroSection } from "../sections/HeroSection";
+import { OurStory } from "../sections/OurStory";
 
 export const Home = () => {
   return (
@@ -7,7 +8,7 @@ export const Home = () => {
       <div className="text-black">
         <HeroSection />
         <section>featured</section>
-        <section>our story</section>
+        <OurStory/>
         <section>products</section>
         <section>testimonials</section>
         <section>new arrivals</section>
