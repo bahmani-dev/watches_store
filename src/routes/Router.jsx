@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes, createBrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Cart } from "../pages/Cart";
 import { BestSells } from "../pages/BestSells";
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
+
 ]);
 
 export default router;
