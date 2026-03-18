@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const HeroSection = () => {
   return <>
     <div className="overflow-y-hidden">
@@ -10,8 +10,8 @@ export const HeroSection = () => {
         </div>
         <div className="flex gap-5 ">
           <img src="lightmode.svg" alt="" />
-          <img src="cart.svg" alt="" />
-          <img src="menu.svg" alt="" />
+          <Link to="/cart"><img src="cart.svg" alt=""className="cursore-pointer" /></Link>
+          <img src="menu.svg" alt="" className="" />
         </div>
       </div>
       
