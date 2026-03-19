@@ -4,6 +4,7 @@ import { Cart } from "../pages/Cart";
 import { BestSells } from "../pages/BestSells";
 import { Login } from "../pages/Login";
 import { Register } from "../pages/Register";
+import Feach from "../pages/Feach";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
+  {
+    path:"/feacherd",
+    element:<Feach/>
+  }
 
 ]);
 
