@@ -1,7 +1,11 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss"; */
+
 
 * {
-  /* color: white; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
