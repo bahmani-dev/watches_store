@@ -7,14 +7,16 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <>
-      <HeroSection />
-      <Feacherd />
-      <OurStory />
-      <section>products</section>
-      <section>testimonials</section>
-      <section>new arrivals</section>
-      <section>email</section>
-      <section>footer</section>
+      <div className="text-black">
+        <HeroSection />
+        <Feacherd />
+        <OurStory />
+        <section>products</section>
+        <section>testimonials</section>
+        <section>new arrivals</section>
+        <section>email</section>
+        <section>footer</section>
+      </div>
     </>
   );
 };
